@@ -18,14 +18,23 @@ body {
 h1 {
     font-weight: normal;
     font-size: 4rem;
-    margin-top: 5rem;
 }
 
 .countdown-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding: 20px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
+
 
 .big-text {
     font-weight: bold;
@@ -40,4 +49,15 @@ h1 {
 
 .countdown-el span {
     font-size: 1.5rem;
+}
+
+.headerCountdown {
+    margin: 80px;
+    padding: 20px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
